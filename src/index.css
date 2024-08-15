@@ -1,0 +1,580 @@
+:root {
+  font-family: sans-serif;
+}
+.nav-link{
+  font-family: sans-serif !important;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #000000;
+
+}
+.btn-global{
+  background-color: #D9F4FD;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+.btn-global:hover{
+  background-color: #61bbda;
+  color: #242424;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 15px;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+h2{
+font-size: 40px;
+font-weight: 500;
+line-height: 54px;
+}
+h3{
+font-size: 32px;
+font-weight: 500;
+line-height: 43.2px;
+
+}
+h4{
+font-size: 16px;
+font-weight: 500;
+line-height: 21.6px;
+
+}
+h5{
+font-size: 24px;
+font-weight: 500;
+line-height: 32.4px;
+}
+p{
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+.bg-global{
+  background: linear-gradient(90deg, #191326 0%, #1C162F 44%, #1D1631 100%);
+  color: #fff;
+}
+
+.css-mohuvp-dummyInput-DummyInput {
+  display: none !important;
+}
+/* --------------------------------header------------------------------------- */
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.navbar .brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  color: #000000;
+  padding: 5px 10px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .links a:hover {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+.navbar .wallet {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar .wallet .dropdown {
+  position: relative;
+}
+
+.navbar .wallet .dropdown select {
+  padding: 10px 35px;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  background-color: #D9F4FD;
+}
+
+.navbar .wallet .connect-button {
+  padding: 17px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #D9F4FD;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .wallet .connect-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+
+.css-13cymwt-control {
+  background-color: #d9f4fd;
+  font-size: 0;
+  min-width: 180px;
+}
+.css-13cymwt-control {
+  background-color: #d9f4fd !important;
+  border: none !important;
+  padding: 6px;
+  max-width: 170px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.css-1nmdiq5-menu{
+  padding: 8px;
+  background-color: #d9f4fd !important;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar .links {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+  .navbar .links.show {
+    display: flex;
+  }
+  .navbar .wallet {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .navbar .wallet .connect-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .css-13cymwt-control{
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+  .selector-dropdown {
+    width: 100% !important;
+}
+}
+
+
+
+/* --------------------------------header------------------------------------- */
+
+
+/* --------------------------------Hero sec------------------------------------- */
+
+
+.herosec{
+  background: rgb(51,4,71);
+  background: linear-gradient(90deg, rgba(51,4,71,1) 0%, rgba(0,6,41,1) 50%, rgba(5,34,94,1) 100%);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.herosec h1{
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 60px;
+
+}
+.herosec h1 span{
+  color: #2986F6;
+
+}
+
+.background-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none; 
+  z-index: 0; 
+}
+
+.background-image {
+  position: absolute;
+  height: auto;
+}
+
+.left-top {
+  top: 18%;
+  left: 0;
+  transform: translate(-10%, 10%);
+}
+
+.right-bottom {
+  bottom: 5%;
+  right: 0;
+  transform: translate(10%, -10%);
+}
+
+.left-bottom {
+  bottom: 0;
+  left: 0;
+  transform: translate(-10%, -10%); 
+}
+
+
+
+
+/* --------------------------------Hero sec------------------------------------- */
+
+/* --------------------------------why us sec------------------------------------- */
+
+
+.card{
+  background: linear-gradient(180deg, #353559 0%, #3D2B55 100%);
+  margin: 15px 0;
+
+}
+.card {
+  transition: all 0.6s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+  background: linear-gradient(90deg, rgba(51, 4, 71, 1) 0%, rgba(0, 6, 41, 1) 50%, rgba(5, 34, 94, 1) 100%);
+  box-shadow: 0 4px 8px rgba(255, 20, 147, 0.6), 
+              0 0 15px rgba(255, 20, 147, 0.9), 
+              0 0 30px rgba(255, 20, 147, 0.8), 
+              0 0 50px rgba(255, 20, 147, 0.7);
+}
+.card img {
+  max-width: 100%; 
+  height: auto;
+}
+.why-side-cards{
+  width: 75%;
+}
+
+
+/* --------------------------------why us sec------------------------------------- */
+
+
+/* --------------------------------Our ecosystem sec------------------------------------- */
+.ecosysem-sec h4{
+   background: rgba(217, 244, 253, 1);
+}
+.ecosysem-sec{
+  display: flex;
+  align-items: center;
+}
+
+/* --------------------------------Our ecosystem sec------------------------------------ */
+
+/* --------------------------------faqs-sec sec------------------------------------ */
+
+.faqs-sec ul li{
+  list-style: auto;;
+}
+.faqs-sec h2 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: normal;
+}
+.faqs-sec .list-number {
+  background: rgba(255, 255, 255, 1);
+  color: #000000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px; 
+  margin-right: 12px;
+  text-align: center;
+  font-weight: 500;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  flex-shrink: 0; 
+}
+
+.faqs-sec img{
+  width: 50%;
+}
+.faqs-sec .accordion-body h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: unset;
+}
+.faqs-sec .accordion-body p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.faqs-sec .accordion-button{
+  background: linear-gradient(180deg, #353559 0%, #3D2B55 100%);
+    color: #fff;
+    padding: 10px !important;
+}
+.faqs-sec .accordion-button::after {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 6.5l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.faqs-sec .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 9.5l6-6 6 6'/%3E%3C/svg%3E");
+}
+
+/* --------------------------------faqs-sec sec------------------------------------ */
+
+/* --------------------------------BLOG PAGE------------------------------------ */
+
+.blog_pge .card img{
+  max-height: 300px;
+  object-fit: cover;
+}
+.blog_pge{
+  background: radial-gradient(circle, #532e93 4%, rgba(25,13,46,1) 44%);
+}
+.banner_bg{
+  padding: 20px; /* Example padding */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 0 8px 8px rgba(96, 42, 154, 0.8); /* Box shadow with #602A9A */
+  margin: 50px 0;
+}
+
+/* From Uiverse.io by satyamchaudharydev */ 
+/* this is a recreation of twitter search in css */
+.form-custom{
+  --input-text-color: #fff;
+  --input-bg-color: #D9F4FD;
+  --focus-input-bg-color: transparent;
+  --text-color: #222222;
+  --active-color: #532e93;
+  --width-of-input: 200px;
+  --inline-padding-of-input: 1.2em;
+  --gap: 0.9rem;
+}
+/* form style */
+.form-custom{
+  font-size: 0.9rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  width: var(--width-of-input);
+  position: relative;
+  isolation: isolate;
+}
+/* a fancy bg for showing background and border when focus. */
+.form-custom .fancy-bg {
+  position: absolute;
+  width: 100%;
+  inset: 0;
+  background: var(--input-bg-color);
+  border-radius: 30px;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+/* label styling */
+.form-custom label {
+  width: 100%;
+  padding: 0.8em;
+  height: 40px;
+  padding-inline: var(--inline-padding-of-input);
+  display: flex;
+  align-items: center;
+}
+
+.form-custom .search,.close-btn {
+  position: absolute;
+}
+/* styling search-icon */
+.form-custom .search {
+  fill: var(--text-color);
+  left: var(--inline-padding-of-input);
+}
+/* svg -- size */
+.form-custom svg {
+  width: 17px;
+  display: block;
+}
+/* styling of close button */
+ .form-custom .close-btn {
+  border: none;
+  right: var(--inline-padding-of-input);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 0.1em;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--active-color);
+  opacity: 0;
+  visibility: hidden;
+}
+/* styling of input */
+.input-custom{
+  color: var(--input-text-color);
+  width: 100%;
+  margin-inline: min(2em,calc(var(--inline-padding-of-input) + var(--gap)));
+  background: none;
+  border: none;
+}
+
+.input-custom:focus {
+  outline: none;
+}
+
+.input-custom::placeholder {
+  color: var(--text-color)
+}
+/* input background change in focus */
+.input-custom:focus ~ .fancy-bg {
+  border: 1px solid var(--active-color);
+  background: var(--focus-input-bg-color);
+}
+/* search icon color change in focus */
+.input-custom:focus ~ .search {
+  fill: var(--active-color);
+}
+/* showing close button when typing */
+.input-custom:valid ~ .close-btn {
+  opacity: 1;
+  visibility: visible;
+}
+/* this is for the default background in input,when selecting autofill options -- you can remove this code if you do not want to override the browser style.  */
+.form-custom input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+  -webkit-transition-delay: 9999s;
+}
+
+/* --------------------------------BLOG PAGE------------------------------------ */
+
+@media screen and (max-width: 1200px) {
+  .herosec h1{
+    font-size: 64px;
+    max-width: 100%;
+  }
+  .herosec .hero-img{
+    width: 70%;
+  }
+
+}
+@media screen and (max-width: 991px) {
+  .ecosysem-sec {
+    height: unset !important;
+}
+.responsive_width{
+  width: 100%;
+}
+.faqs-sec img{
+  width: 50%;
+}
+.blog_pge .card img{
+  max-width: 100% !important;
+}
+
+}
+@media screen and (max-width: 768px) {
+  .faqs-sec h2 {
+    font-size: 30px;
+  }
+  .why-side-cards{
+    width: 100%;
+  }
+  .card img {
+    max-width: 50% !important;
+    height: auto;
+}
+  .navbar .wallet .dropdown {
+    width: 100%;
+}
+.herosec .hero-img {
+  width: 50%;
+}
+.herosec h1 {
+  font-size: 44px;
+  max-width: 100%;
+  line-height: unset !important;
+}
+.btn-global {
+  font-size: 16px;
+  padding: 6px 10px;
+}
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: unset !important;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: unset !important;
+}
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: unset !important;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: unset;
+}
+.background-image {
+  position: absolute;
+  height: auto;
+  width: 30%;
+  opacity: .5;
+}
+}
+@media screen and (max-width: 550px) {
+
+}
+@media screen and (max-width: 425px) {
+
+  .herosec h1 {
+    font-size: 30px;
+    max-width: 100%;
+    line-height: unset;
+}
+}
