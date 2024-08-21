@@ -3,6 +3,7 @@ import logo from "../assets/enerrgy-logo.png";
 import eth from "../assets/ethereum-coin.png";
 import { options } from "../constants";
 import CustomSelect from "./CustomSelect";
+import Addblogs from "../Addblog";
 
 const Header = () => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -87,7 +88,7 @@ const Header = () => {
                 />
               </div>
             </div>
-            <button className="connect-button">Connect Wallet</button>
+            <a href="/addblogshere"><button className="connect-button"> Connect Wallet</button></a>
           </div>
         </div>
       </nav>
