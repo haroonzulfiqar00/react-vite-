@@ -6,7 +6,6 @@ import CustomSelect from "./CustomSelect";
 
 const Header = () => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
-  // const [selectedOption, setSelectedOption] = useState(options[0].value);
   const [selectedOption, setSelectedOption] = useState(options?.[0]);
 
   const handleSelectChange = (selectedOption) => {
@@ -17,9 +16,6 @@ const Header = () => {
     setIsNavbarOpen(!isNavbarOpen);
   };
 
-  // const handleSelectChange = (event) => {
-  //   setSelectedOption(event.target.value);
-  // };
   console.log("images optins", options);
   console.log("selectedOption", selectedOption);
   return (
@@ -55,22 +51,22 @@ const Header = () => {
             style={{ "--bs-scroll-height": "100px" }}
           >
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#hero_sec">
+              <a className="nav-link" aria-current="page" href="/#hero_sec">
                 Token
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#xenergy_sec">
+              <a className="nav-link" href="/#xenergy_sec">
               Xenergy
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#technical_sec">
+              <a className="nav-link" href="/#technical_sec">
               Technical
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#faqs">
+              <a className="nav-link" href="/#faqs">
                 FAQs
               </a>
             </li>
@@ -82,14 +78,6 @@ const Header = () => {
           </ul>
           <div className="wallet d-flex align-items-center">
             <div className="selector-dropdown">
-              {/* <select className="form-select" value={selectedOption} onChange={handleSelectChange}>
-                {options.map(option => (
-                  <div key={option.value} value={option.value}>
-                    {<img src={option?.img} alt={option.label} style={{ width: '25px', height: '25px', marginRight: '8px' }} />}
-                    {option.label}
-                  </div>
-                ))}
-              </select> */}
               <div className="">
                 <CustomSelect
                   options={options}

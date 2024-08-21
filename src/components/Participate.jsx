@@ -10,9 +10,9 @@ const Participate = () => {
           <h2 className='pb-2'>Technical Architecture</h2>
           <h5>Our token, XEnergy Sunrise, is built on the Ethereum blockchain, utilizing smart contracts to facilitate secure and transparent energy transactions</h5>
         </div>
-        <div className="row">
+        <div className="row ">
           {participateData.map((participate, index) => (
-            <div className="col-lg-4 d-flex align-items-stretch" key={index}>
+            <div className="col-lg-4 d-flex align-items-stretch " key={index}>
               <Tilt
                 options={{
                   max: 55, 
@@ -21,7 +21,7 @@ const Participate = () => {
                   glare: true,
                   'max-glare': 0.9 
                 }}
-                className="card px-4 py-5 text-center rounded-4 w-100"
+                className="card px-4 py-5 text-center rounded-4 w-100 text-light"
               >
                 <div>
                   <img src={participate.image} alt={participate.image} />

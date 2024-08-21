@@ -7,7 +7,7 @@ import linkedin from '../assets/linkedin.png'
 const Footer = () => {
   return (
     <>
-        <footer className='bg-global' >
+        <footer className='bg-global pt-3' >
             <div className="container">
                 <div className='d-flex justify-content-between py-2'>
                     <div className='d-flex gap-3'>

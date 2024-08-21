@@ -14,7 +14,7 @@ const Whyus = () => {
             </div>
             <div className="row">
             <div className="col-lg-5 d-flex flex-column">
-                <div className="card p-4 flex-grow-1">
+                <div className="card p-4 flex-grow-1 text-light">
                 <h3>Introduction</h3>    
                 <p>The global energy market is rapidly evolving, with a significant shift towards renewable energy sources. However, the solar energy sector faces challenges such as high initial costs, inefficient energy distribution, and lack of transparency. XEnergy Sunrise aims to address these issues by leveraging blockchain technology.</p>
                 {/* <ul>

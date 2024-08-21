@@ -17,7 +17,6 @@ function App() {
         <Ecosystem />
         <Faqs />
         <Footer />
-
     </>
   )
 }
